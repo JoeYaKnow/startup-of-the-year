@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(StormySea.jfif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  font-size: 3rem;
+  color: lightgray;
+}
+
+hr {
+    margin: 20px auto;
+    color: steelblue;
+    border: 3px solid steelblue;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer {
+  height: 5rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: steelblue;
+  border-color: steelblue;
+}
+
+.btn-primary:hover {
+  background-color: lightsteelblue;
+  border-color: lightsteelblue;
+  border-width: 4px;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
